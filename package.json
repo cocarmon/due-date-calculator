@@ -1,0 +1,24 @@
+{
+  "name": "due-date-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "script": "tsx ./src/index.js",
+    "lint": "npx eslint .",
+    "test": "vitest",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "husky": "^9.1.7",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0",
+    "vitest": "^1.6.1"
+  }
+}
