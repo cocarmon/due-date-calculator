@@ -5,8 +5,8 @@
   "scripts": {
     "script": "tsx ./src/index.js",
     "lint": "npx eslint .",
-    "test": "vitest",
-    "prepare": "husky"
+    "test": "vitest run",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
